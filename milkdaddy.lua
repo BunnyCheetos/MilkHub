@@ -231,7 +231,7 @@ local Player = game:GetService("Players").LocalPlayer
 local UIS = game:GetService("UserInputService")
 
 UIS.InputBegan:connect(function(UserInput)
-        if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.E then
+        if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.F then
             _G.Running = true
                 while wait(0.005) and _G.Running == true do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 1
@@ -241,7 +241,7 @@ end
         end
 end)
 UIS.InputEnded:connect(function(UserInput)
-        if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.E then
+        if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.F then
                 _G.Running = false
         end
 end)
