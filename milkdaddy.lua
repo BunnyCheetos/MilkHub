@@ -245,3 +245,9 @@ UIS.InputEnded:connect(function(UserInput)
                 _G.Running = false
         end
 end)
+
+while wait(6) do 
+    local A_1 = "Sub TO Bunny Cheetos on YT!" 
+    local A_2 = "All" 
+    local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+end
