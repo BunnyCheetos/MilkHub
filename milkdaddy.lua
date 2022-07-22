@@ -4,8 +4,7 @@ local TextLabel = Instance.new("TextLabel")
 --Properties:
 
 MILKHUBLOL.Name = "MILKHUBLOL"
-MILKHUBLOL.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-MILKHUBLOL.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+MILKHUBLOL.Parent = game.CoreGui
 
 TextLabel.Parent = MILKHUBLOL
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
