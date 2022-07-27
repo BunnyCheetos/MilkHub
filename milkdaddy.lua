@@ -98,7 +98,43 @@ MiscSection:NewButton("Bedwars", "Cummy UwU", function()
 end)
 
 MiscSection:NewButton("Bloxburg (MIGHT GET YOU BANNED!)", "Cummy UwU", function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/XB67JnAu'))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/XB67JnAu"))()
+
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "🍆💦",
+        Text = "cummed in ur mouth",
+        Duration = 15,
+        Icon = 'rbxassetid://9369734460'
+   }) 
+end)
+
+MiscSection:NewButton("Infinite Yield", "Cummy UwU", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "🍆💦",
+        Text = "cummed in ur mouth",
+        Duration = 15,
+        Icon = 'rbxassetid://9369734460'
+   }) 
+end)
+
+MiscSection:NewButton("BloxFruits", "Cummy UwU", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/hxllow"))()
+
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "🍆💦",
+        Text = "cummed in ur mouth",
+        Duration = 15,
+        Icon = 'rbxassetid://9369734460'
+   }) 
+end)
+
+local SettingsWin = Window:NewTab("Settings")
+local Settings = SettingsWin:NewSection("Change UI Settings")
+
+Settings:NewKeybind("Hide UI", "Cummy UwU", Enum.KeyCode.LeftAlt, function()
+	Library:ToggleUI()
 
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "🍆💦",
