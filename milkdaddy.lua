@@ -120,7 +120,7 @@ MiscSection:NewButton("Infinite Yield", "Cummy UwU", function()
 end)
 
 MiscSection:NewButton("BloxFruits", "Cummy UwU", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/hxllow"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnyCheetos/MilkHub/main/bloxfruitlol0940912.milk"))()
 
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "🍆💦",
