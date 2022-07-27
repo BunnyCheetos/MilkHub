@@ -1,0 +1,1 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/BunnyCheetos/MilkHub/main/milkdaddy.lua',true))()
