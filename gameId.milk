@@ -1,0 +1,1 @@
+if game.PlaceId == 6284583030 then return loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnyCheetos/MilkHub/main/milkdaddy.lua", true))() end
