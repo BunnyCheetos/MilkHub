@@ -1,0 +1,32 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Milkhub v1 | Bunny Cheetos | Pet Simulator X", "LightTheme")
+
+-- Main 
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main Features")
+
+-- LocalPlayer
+local PlrGui = Window:NewTab("LocalPlayer")
+local PlrGuiSection = PlrGui:NewSection("Local Player")
+
+PlrGuiSection:NewSlider("WalkSpeed", "CummyUwU", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+PlrGuiSection:NewSlider("JumpPower", "CummyUwU", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+-- Settings
+local SettingsWin = Window:NewTab("Settings")
+local Settings = SettingsWin:NewSection("Change UI Settings")
+
+Settings:NewKeybind("Hide UI", "Cummy UwU", Enum.KeyCode.LeftAlt, function()
+	Library:ToggleUI()
+
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "🍆💦",
+        Text = "cummed in ur mouth",
+        Duration = 15,
+        Icon = 'rbxassetid://9369734460'
+   }) 
+end)
