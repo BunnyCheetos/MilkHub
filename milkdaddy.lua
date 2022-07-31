@@ -130,6 +130,32 @@ MiscSection:NewButton("BloxFruits", "Cummy UwU", function()
    }) 
 end)
 
+MiscSection:NewButton("Murder Mystery 2", "Cummy UwU", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "🍆💦",
+        Text = "cummed in ur mouth",
+        Duration = 15,
+        Icon = 'rbxassetid://9369734460'
+   }) 
+end)
+
+MiscSection:NewButton("Remote Spy", "Cummy UwU", function()
+    game.Players.LocalPlayer:Kick("Not out yet")
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "🍆💦",
+        Text = "cummed in ur mouth",
+        Duration = 15,
+        Icon = 'rbxassetid://9369734460'
+   }) 
+end)
+
+
+-- Settings
 local SettingsWin = Window:NewTab("Settings")
 local Settings = SettingsWin:NewSection("Change UI Settings")
 
