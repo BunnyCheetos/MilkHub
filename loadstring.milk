@@ -1,5 +1,4 @@
 if game.PlaceId == 6284583030 then return loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnyCheetos/MilkHub/main/petSim89X3.milk", true))() end
-else
-game.PlaceId == 6407649031 then return loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnyCheetos/MilkHub/main/arcade.milk", true))() end
+elseif game.PlaceId == 6407649031 then return loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnyCheetos/MilkHub/main/arcade.milk", true))() end
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnyCheetos/MilkHub/main/milkdaddy.lua", true))()
