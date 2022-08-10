@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Milkhub v1 | No Scope Arcade", "LightTheme")
+
+-- Main 
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main Features")
+
+MainSection:NewButton("Aimbot", "Locks on to people", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnyCheetos/MilkHub/main/buzzinaimbot"))()
+    
+    Aimbot_TeamCheck = false
+end)
