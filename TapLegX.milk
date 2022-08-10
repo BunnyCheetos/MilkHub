@@ -1,0 +1,21 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Milkhub v1 | Tapping Legends", "LightTheme")
+
+-- Main 
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main Features")
+
+MainSection:NewToggle("Auto Clicker", "Auto Clicker", function(state)
+if state then
+  _G.Tap = true;
+  spawn(function()
+  while _G.Tap == true do
+          local args = {[1] = 1}
+          game:GetService("ReplicatedStorage").Remotes.Tap:FireServer()
+      wait()
+    end
+  end)
+else
+        _G.Tap = false;
+    end
+end)
