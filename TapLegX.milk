@@ -14,7 +14,6 @@ if state then
           game:GetService("ReplicatedStorage").Remotes.Tap:FireServer()
       wait()
     end
-  end)
 else
         _G.Tap = false;
     end
