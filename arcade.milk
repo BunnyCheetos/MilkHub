@@ -6,7 +6,5 @@ local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main Features")
 
 MainSection:NewButton("Aimbot", "Locks on to people", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnyCheetos/MilkHub/main/buzzinaimbot"))()
-    
-    Aimbot_TeamCheck = false
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnyCheetos/MilkHub/main/buzzinaimbot.team"))()
 end)
