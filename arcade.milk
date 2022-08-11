@@ -10,7 +10,7 @@ MainSection:NewButton("Aimbot", "Locks on to people", function()
 end)
 
 MainSection:NewButton("ESP", "Shows were people are", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/8xFPv3jp"))()
+    game.Players.LocalPlayer:Kick("Milk Hub prevented you from being banned by the Anti-Cheat")
 end)
 
 -- Settings
