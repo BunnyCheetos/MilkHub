@@ -12,3 +12,11 @@ end)
 MainSection:NewButton("ESP", "Shows were people are", function()
     game.Players.LocalPlayer:Kick("Milk Hub detected the Anti-Cheat was gonna kick you")
 end)
+
+-- Settings
+local SettingsWin = Window:NewTab("Settings")
+local Settings = SettingsWin:NewSection("Change UI Settings")
+
+Settings:NewKeybind("Hide UI", "Hides UI", Enum.KeyCode.LeftAlt, function()
+	Library:ToggleUI()
+end)
