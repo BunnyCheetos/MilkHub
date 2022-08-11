@@ -13,6 +13,10 @@ MainSection:NewButton("ESP", "Shows were people are", function()
     game.Players.LocalPlayer:Kick("Milk Hub prevented you from being banned by the Anti-Cheat")
 end)
 
+MainSection:NewButton("Fly", "Lets you fly like a bird", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnyCheetos/MilkHub/main/0xJump"))()
+end)
+
 -- Settings
 local SettingsWin = Window:NewTab("Settings")
 local Settings = SettingsWin:NewSection("Change UI Settings")
