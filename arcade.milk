@@ -8,3 +8,7 @@ local MainSection = Main:NewSection("Main Features")
 MainSection:NewButton("Aimbot", "Locks on to people", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnyCheetos/MilkHub/main/buzzinaimbot.team"))()
 end)
+
+MainSection:NewButton("ESP", "Shows were people are", function()
+    game.Players.LocalPlayer:Kick("Milk Hub detected the Anti-Cheat was gonna kick you")
+end)
